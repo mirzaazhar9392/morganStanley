@@ -1,0 +1,53 @@
+File Validation
+While validating file we mainly focus on 2 things 
+Control Validation
+Data Validation
+
+Types 
+CSV
+Flat Files 
+EDI- Electronic Data Interchange
+
+EDI
+EDI is file format for structured text files used  for data exchange.
+
+Advantage
+Security
+Low Cost
+Minimum chances of Data corruption.
+
+EDI Consists 
+ISA - Interchange Control Header
+GS - Functional Group header
+ST Transaction Set Header
+SE Transaction set Trailer
+GE Functional Group Trailer
+IEA Interchane Control Trailer
+
+
+
+Format of EDI
+
+ISA *00*00*00*1234567890
+TRN***51000000100A654***51000000177A654
+N1 ***SIMON Katich*
+N4**10NewYork***12Chicago
+
+
+Cutomer Requirement provided by customer in excel sheet 
+
+Data Validation
+To validate data w.r.to position and data 
+
+Attrubutes 	DataType	Length	Position Noof files 
+Cell No 	Numeric		10	ISA/6	 1
+Trans_id	Aplha Numeric	15	TRN/3    1
+Cust_name	Aplha Numeric	8-15	N1/3     2
+Statecode 	Numeric		2       N4/3	 1
+
+Segment Name 
+TRN***Transation Id   
+
+
+Control Validation 
+In Control validation we validate lengths pf attribute       		
