@@ -1,0 +1,611 @@
+Q.ctually I never worked on ETL testing. I even don't know what is etl and why it is used. Can you please explain me so that i get some understanding.
+
+When explaining an ETL (Extract, Transform, Load) project in a software testing interview, 4
+follow these steps to effectively communicate your understanding:
+
+Define ETL: Start by providing a brief explanation of ETL. 
+Describe it as the process of extracting data from various sources, 
+transforming it into a consistent format, and loading it into a target system or data warehouse. 
+Explain that ETL is commonly used in data integration and business intelligence projects.
+
+Project Overview: Provide an overview of the ETL project you worked on. 
+Mention the project's objective, scope, and the role you played in the testing phase. 
+Highlight the significance of ETL testing in ensuring the accuracy, completeness, and reliability of data transformations and loading processes.
+
+Understanding Data Sources: Explain how you gained an understanding of the data sources involved in the ETL project. 
+Discuss the steps you took to analyze the source systems, data formats, data quality, and any data validation rules or business rules 
+that needed to be considered during testing.
+
+Test Planning: Describe how you planned the ETL testing activities. 
+Discuss the creation of test scenarios, test cases, and test data sets to validate the ETL processes. 
+Explain the techniques you used to design tests that cover data extraction, data transformation logic, data mapping, and data loading.
+
+Data Validation: Emphasize the importance of data validation in ETL testing. 
+Discuss the verification of data completeness, data integrity, data accuracy, and data consistency across different stages of the ETL process. 
+Mention the techniques you used, such as SQL queries, data profiling, data comparisons, and data reconciliation.
+
+Error Handling and Logging: Highlight your involvement in testing error handling and logging mechanisms in the ETL process. 
+Explain how you identified and tested error scenarios, such as data quality issues, missing data, data truncation, and data type mismatches. 
+Discuss the validation of error logs, error notifications, and data recovery processes.
+
+Collaboration and Communication: Describe your collaboration with the development team, business analysts, data engineers, 
+and other stakeholders involved in the ETL project. Discuss how you communicated test results, defects, and risks to the relevant teams. 
+Highlight your ability to work in a team and adapt to changing requirements and priorities.
+
+Tools and Technologies: Mention the ETL tools and technologies you used during the project. 
+Discuss your proficiency in tools such as Informatica PowerCenter, Talend, SSIS (SQL Server Integration Services), 
+or any other ETL tools commonly used in the industry. Explain how you leveraged these tools to perform ETL testing efficiently.
+
+Lessons Learned: Reflect on any lessons or insights you gained from the ETL project. 
+Discuss the challenges you faced, how you overcame them, and any best practices you adopted. 
+Emphasize your commitment to continuous learning and improvement in ETL testing.
+
+Remember to tailor your explanation to the specific job role and requirements of the interview. 
+Focus on highlighting your relevant experiences, technical skills, and the value you can bring to the prospective employer in the context of ETL testing.
+-------------------------------------------------------------------------------------------------------------------------
+
+-What is Diameter protocol?----no answer
+-Call flow 3g,4g,5g ?----no answer
+-What is osc ?---no answer
+-charging ----ok
+-Billing----ok
+-how Mediation work?---ok
+-How customer get the call details record?------ok
+-How the customer identify the billable and non billable ?---ok
+-which tool you are using for Billing Support System ?----ok
+- What kind of testing we perform in BSS?----
+-Explain End-to-end project take any scenario like Postpaid connection, broadband connection.------------ok
+-are you from telecom domain. Then by considering your data on which you are working. Frame a query, considering there are
+ some numbers in the table which dont have any bill considering they aren't used or totally discarded.i aked can you specify the no of tables?
+ she to consider your day to day scenario and frame it.
+
+Job Profile : Telecom Tester
+
+1.Introduce yourself -------ok
+2.which project your working and explain it briefly ------------ok
+3.what u have done in your project?----------ok
+4.Explain CRM and how Customer is created in CRM.------------ok
+5.who creates CRM?Can user have acess to CRM and how?-------------ok
+6.Which CRM you have use and Which Billing System You have used?---------ok
+7.How you integrate CRM and BSS?what tool u have used for that integration -----------ok
+8.Explain how you charge the customer  as per service they used?-----------ok
+9.how u will check the bill generated for customer is right?--------ok
+10.Explain how data travels from CRM to BSS?----------ok
+11.How you will known which services are used by customers?-----ok
+12.How you will know user created in crm is right user?
+13.how will you rate the charges in your system. Explain it-----------ok
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+T-SQL, short for Transact-SQL, is a proprietary extension of SQL (Structured Query Language) used by Microsoft SQL Server and Sybase ASE (Adaptive Server Enterprise). T-SQL provides additional programming constructs, procedural programming capabilities, and specific features that are not part of the standard SQL language.
+
+Here are some key aspects of T-SQL:
+
+Data Manipulation: T-SQL supports standard SQL operations for querying and manipulating relational databases. This includes SELECT, INSERT, UPDATE, DELETE statements for working with data in tables.
+
+Stored Procedures: T-SQL allows the creation and execution of stored procedures, which are precompiled sets of SQL statements. Stored procedures provide encapsulation, reusability, and improved performance by reducing network traffic.
+
+Control Flow Statements: T-SQL includes control flow statements for branching and looping within procedural code. This includes IF-ELSE statements, WHILE and FOR loops, and CASE expressions.
+
+Variables and Parameters: T-SQL supports declaring and using variables to store and manipulate data within a script or stored procedure. Parameters can also be defined to pass values into stored procedures.
+
+Error Handling: T-SQL provides error handling mechanisms such as TRY-CATCH blocks to handle exceptions and errors that may occur during execution.
+
+Views and Functions: T-SQL supports the creation of views, which are virtual tables based on SQL queries, and functions, which encapsulate reusable logic for calculations and transformations.
+
+Triggers: T-SQL allows the creation of triggers, which are special types of stored procedures that are automatically executed in response to specific events, such as data modifications on tables.
+
+Indexes and Constraints: T-SQL provides syntax for creating indexes to improve query performance and constraints to enforce data integrity rules, such as primary keys and foreign keys.
+
+Dynamic SQL: T-SQL supports the execution of dynamically constructed SQL statements using the EXEC or sp_executesql commands, allowing flexibility in generating and executing SQL statements at runtime.
+
+These are just some of the features and capabilities offered by T-SQL. It is important to note that T-SQL is specific to Microsoft SQL Server and Sybase ASE, and there may be slight variations in syntax and functionality between different versions of the databases.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Today's Big data testing interview questions.
+
+1. Difference Between views and table--------------ok
+
+4. Difference Between Internal table and external table-------------ok
+5. Difference Between Delete and truncate--------------ok
+6. There are two tables--------------ok
+Employee
+Emp ID  EMP Name  salary
+
+Manager
+Emp ID.  Manager Name.  Manager ID
+ans;select manager_name , min(salary) from employee join manager on employee.emp_id=manager.emp_id group by manager_name order by salary
+
+Write query that manager having minimum salary-------------------ok
+
+Q.What is the difference between sorting and order by?? Is it same-----------------------ok
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Interview questions 
+17-06-2023
+Job Profile -Telecom tester
+
+1.Explain project.----------------ok
+2.On which module you have worked?do you know oss?----------------ok
+3.what is service provision and service activation-----ok
+4.how Roaming charges are generated on billing system and have use same system for
+ roaming or different and which system is it how it work for the generation of bill?
+5.Explain servity and priority  And eg  of ------------ok
+ high severity and low Priority
+ Low severity and high priority ----------------
+6.test cases for 3 different class room. class A class B class C-------------------search on chatgpt
+7.Explain defect life cycle ---------ok
+8.what is CDR-------------ok
+9.how do generate the bill --------------ok
+10.what do you use in etl testing for packag run--------ok
+11.what is distinct nd unique in sql
+12.which module do u use  Waterfall or Agile -------------ok
+13.why do u use agile--------------ok
+14.have u attended srcum meetings.what was your role----------------ok
+15.what is retrospective meet-------------ok
+16.can age be a primary key from student table-----------ok
+17.What is RTM----------ok
+18.what is regression  and progression testing-----------ok
+19.what sanity and smoke testing--------ok
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Questions asked during Interview dated 16/06/2023
+Job Profile :- Manual Testing
+Location :- Calicut
+1. Tell me about yourself ?---------ok
+2. What are you hobbies ?------------ok
+3. How long did you work as a manual tester ?----------ok
+4. If your current designation is an ETL tester, will you face any problems in switching back to Manual ?-------------ok
+5. Did you ever do any form of manual testing in your ETL testing ? When I asked to elaborate she asked
+I had ever done manual testing in a particular area in ETL testing? -----ok
+6. How was the work culture in your previous organisation ? What was your work routine pre-lockdown ?
+Did you face any problems working during lockdown ?
+7. Why do you want to leave your present organisation ?---------------ok
+8. Apart from your usual work routine, did you ever do or suggest something so radical and out of the box
+and got appreciated for it.--------ok
+9. Did you ever do something seriously wrong, if yes then how did you tackle it ? ----------ok
+10. Difference between a QA and QC ?-----------ok
+11. Explain the relationship between SDLC and STLC -------okk
+12. Difference between White Box testing and Black Box testing ?--------ok
+13. Can we say that white box testing is a subset of black box testing ?-----------ok
+14. Difference between SRS and FRS ?----------ok
+15. Suppose you didn't get the SRS due to time shortage, can you design your test scenarios and write test
+cases from the available BRS document ?-------------------------ok
+16. You said that SRS is a baseline document, what do you mean by it ?
+17. Suppose the software is in coding stage and no build is ready, what testing stragegies will you employ ?-------------ok
+18. Differenc between Regression testing and retesting ?-------ok
+19. What is Zero Bug Bounce ? Did you ever encounter it in your career?--------ok
+20. Difference between staircase model and VVV model ?---------ok
+21. Say you were employed in facebook and were in the team that releases and oversees whatsapp releases,
+which model are you likely to use ? I said staircase, she replied wrong and said it would be spiral.
+22. Difference between Spiral and Agile, how do they individually tackle dynamic requirements ?
+23. How many types of Agile techniques are you aware of ? What is the disadvantage of Agile ?
+24. Can you please explain the difference between a stub and a patch. Did you ever get a chance to ------ok
+encounter a stub in your career?.
+25. Can you list out the various types of functional testing that you have done ?---ok
+26. Explain ECP technique with an example ?----ok
+27. What would be the difference between Priority and Severity ? Who decides the priority and severity of ---ok
+a defect ?
+28. What are the different types Priority and Severity ?---ok
+29. What is the difference between a blocker defect and high severity defect?---ok
+30. A blocker defect is always a high priority defect but a high severity defect may be a low priority defect---ok
+Is this statement true ? If yes then why, if no then why ?
+Now she shared her screen and opened Flipkart website.
+31. Explain a medium severity and a medium priority issue in flipkart ?---ok
+32. Look at this Coffee Mug. Design 15 test scenarios for the mug. Scenarios must be positive scenarios only.
+33. Suppose on the penultimate day of your Agile sprint you find a potential highly severe defect, however 
+your team lead is unsupportive and tells you to ignore the issue for now, but you feel that client side may
+potentially face some severe issues. How will you resolve this situation?------------ok
+34. You find a potential severe defect during the requirement gathering, however both the developer team and
+BA turn hostile, how will you resolve these standoff ?---------------ok
+Do, you have any questions regarding us ?
+Thank you for your time, if you proceed ahead we will revert back to you next monday. Have a nice day.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11.if i will give you any file than how u will test it.what are test scenarios for this?	 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Todays interview
+Client round
+Position: Etl tester ( azure migration)
+
+Interview time- 9 pm
+
+4 people are there 3 indians one foreign person
+
+1) Can you explain what you are doing in your current project of migration.---ok
+
+2) which tools are you using?--------ok
+
+3) Are you storing data to azure data lake?---------------ok
+
+4) tell me the validations you do in your project--------------ok
+
+5) what type of transformation are there?----------ok
+
+6) What loading methods strategies are you implementing?
+
+7) how do you manage a defect? What is your role?------ok
+Whome do you report?
+
+8) Name some common pipeline errors you found in azure
+
+9) name a very very critical defect you found?--------ok
+
+10) tell me about structure validation?----------ok
+
+11) are you from telecom domain. Then by considering your data on which you are working. 
+Frame a query, considering there are some numbers in the table which dont have any bill considering they aren't used or totally discarded.
+I asked can you specify the no of tables?
+
+She told to consider your day to day scenario and frame it.
+
+11) have you done BI testing?--------ok
+
+12) explain bi testing using tablue-----ok
+
+13) give me some scenarios you have tested and explain the entire flow.--------ok
+
+14) why a tester has been assigned to do bi testing? Whats the need? Already team has worked and created a superb dwh.-------ok
+
+15) do you have any questions?--------------ok
+
+They answerd question. And told that hr will let you know .
+-------------------------------------------------------------------------------------------------------------------------------------
+Todays interview
+Job position: Etl tester
+
+
+
+1) tell me about your roles and responsibilities?-------------ok
+
+2) Which project now are you working on?---------ok
+
+( Told him about oracle to azure migration )
+
+3) what tools are you using in this project?-------ok
+
+4) what is azure data factory? How do you use it?-----ok
+
+5) tell me about azure data brics.-----------ok
+
+6) Which language is used to work on databrics? What are the languages available?----okk
+
+7) Which python version are you using? Now a days various organisations uses scala then why you guys choose python.
+
+8) Do you know pyspark?
+
+9) how do you run sql querys in azure data bricks?--------------ok
+
+10) how do you comnect to databrics? What is qa clustor?-------ok
+
+11) Tell me about azure services?-----ok
+
+12) which tool is used to do etl in azure?-----------ok
+
+13) where do you store data i.e what is the name of azure database? ---ok
+
+
+14) Do you know about pipeline, blob stoarages?----ok
+
+15) how do you run pipelinea in adf?------ok
+
+16) what are the errors you get if the pipeline does not get run successfully?
+
+17) what will  you do if this happens?
+
+18) How adf is connected with databrics?-----------ok
+
+19) how many years are you working on etl?---------------ok
+
+20) What are the different sources you used apart from this migration project?------ok
+
+21) tell me the entire etl flow?----------ok
+
+22) What is the difference between landing and staging layers?------ok
+
+23) Why we need these two layers? Did you use all these layers in migration also or just only staging is enough?---------ok
+
+25) Name some transformation?--------ok
+
+26) Tell me all the validations you performed in your project--------ok
+
+27) Name some business validations
+
+28) Tell me about mapping document------ok
+
+29) Consider there are two tables. They both have same data but in one row the name of subscriber is your name 
+and in other my name. So this is a defect. How will you find it and which query will you use. 
+
+30) what is difference between except querry and minus querry-------ok
+
+31) how do you perform validation between oracle and azure? 
+
+32) Sampling is good but have you faced any other situation?-------ok
+
+33) how you validated all the data by your client request without using automation script?----------ok
+
+34) tell me about stlc?--------ok
+
+35) which methodology you are using?----------ok
+
+36) why agile only? Why not waterfall?---------------ok
+
+37) Name some agile ceremonies?-----------ok
+
+38) What is agile grooming?-------ok
+
+39) What is agile retrospective meeting?--ok
+
+40) Have you worked simultaneously on two projects?---------ok
+
+41) How do you manage defects?
+
+42) do you write test cases directly on jira or in excel? Why?-ok
+
+43) how do you map them on jira.--ok
+
+46) Ok. That's was nice talking to you. Do you have any questions for me?
+-----------------------------------------------------------------------------------------------------------------
+
+
+7.What type of different validation do in your hadoop project?
+
+-------------------------------------------------------------------------------------------------------------------
+Interview question: 
+if data moves from Oracle to S3 and S3 to SQL server then what will be the testing scenarios?
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Today's interview
+Manual + Automation testing+ api testing
+
+1) Introduce yourself.
+2) how many projects have you worked on?
+3) As per resume, you seems to worked extensively on etl testing and database testing side?
+4) explain your current etl project in details.
+5) what kind of validation have you done?
+6) is the three layers in azure are different than what have you told me?
+7) what load strategy you have used?
+8) how delta load validations is done?
+9) tell me about adf and containers?
+10) how do you read parquet file in datbricks?
+11) explain in details the spark code you have written. 
+12) how to convert this code to use dataframe by SQL .
+13) Then he asked about pyspark library and some string code .
+14) from your resume I see that you work on rest api?
+15) explain testing api and automation using python in short.
+16) What are server response error codes you get commonly.
+17) Ok. Now tell me about your bss project
+18) he shared a screen with a finance emi calculator. And told me to share screen and he told me backlog requirement and shared some points and told to write two test cases.
+19) he then ask if there is any bug find it. I have find two. Then he shared some points and told me to right bug report.
+20) Then management related questions like hpalm, jira and whome do you report.What challenge you faced etc.
+21) then tell about types of join
+22) difference between drop and truncate
+23) shared four table er diagram which have customer table, loan details, province, country. And then asked three querry.
+1) give me the country and provinces which have max loan repayment with also the customers who didn't pay. Customer name should be contacted in full name and null value should be replaced as 'unknown'
+2) update the table address Street no with other Street no for the city Ontario and frig(don't remember second name). And in table in address column the street no is incorporated.
+3) He shared his querry to group City with some requirements and told me to correct it. 
+24) he shared then a Jason file and told me that this is what he used to test rest api get, put method. It was nested json. And then he told that he is getting 400 error. Why it is happening? And what you suggest developer to clear it out.
+25) asked different 200, 201, 403 and 500 responses.
+26) ok that's from my side.
+I will give feedback to hr. Do you have any questions.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Root Cause Analysis (RCA) in testing is a systematic process of identifying and addressing the underlying causes of defects, issues, or failures in software testing. The goal is to understand why a problem occurred, rather than simply treating its symptoms. A step-by-step guide on how to perform RCA in testing:
+
+Identify the Problem:
+
+Start by clearly defining the problem or issue you want to investigate. This could be a defect in the software, a test failure, or a recurring problem in the testing process.
+Gather Information:
+
+Collect all relevant data and information related to the problem. This may include test cases, test logs, error messages, screenshots, and any other documentation that can help in understanding the issue.
+Isolate the Problem:
+
+Narrow down the scope of the problem. Identify the specific conditions, test cases, or scenarios that trigger the issue. This helps in focusing your analysis on the root cause.
+Brainstorm Possible Causes:
+
+Gather a team of stakeholders, including testers, developers, and domain experts, to brainstorm potential root causes. Encourage open and collaborative discussions to generate a list of possible causes.
+Apply Analytical Techniques:
+
+Use various analytical techniques to analyze the data and identify potential causes. Some common techniques include:
+5 Whys Analysis: Repeatedly ask "Why?" to dig deeper into the problem's origin.
+Fishbone (Ishikawa) Diagram: Create a visual representation of potential causes organized into categories like people, process, technology, and environment.
+Pareto Analysis: Prioritize potential causes based on their frequency or impact.
+Collect Evidence:
+
+Collect evidence to support or refute each potential cause. This may involve conducting additional tests, code reviews, or examining configuration settings.
+Eliminate or Confirm Causes:
+
+As you collect evidence, eliminate potential causes that can be ruled out and confirm those that are supported by evidence. Keep in mind that there may be multiple contributing factors.
+Document the Root Cause:
+
+Once you have identified the root cause(s), document them clearly and comprehensively. Include details about why and how the problem occurred. Use a standardized format or template for documentation.
+Recommend Corrective Actions:
+
+Propose corrective actions to address the root cause(s) and prevent similar issues from occurring in the future. These actions may involve changes to the testing process, test cases, code, or environment.
+Implement Corrective Actions:
+
+Work with relevant teams to implement the recommended corrective actions. Ensure that everyone involved understands the changes and their importance.
+Monitor and Verify:
+
+Continuously monitor the testing process and the software to verify that the corrective actions have been effective. Retest the problem area to confirm that the issue no longer exists.
+Feedback and Learning:
+
+Share the findings and lessons learned from the RCA with the project team. Use this information to improve testing processes and prevent similar issues in future projects.
+Continuous Improvement:
+
+Integrate RCA as a part of your testing process. Encourage a culture of continuous improvement by regularly conducting RCAs and applying lessons learned.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Today interview on manual testing -1hr
+
+
+1 tell me about yourself
+2 SDLC
+3STLC
+4 Difect life cycle
+5 sanity, smoke,regression,retesting
+
+6 integration testing
+
+7 write test case for bottal calculator
+
+8 what is delet truncate and drop
+
+9 Aggregate function
+
+10 group by clause and order by clause
+
+11 name start from s display salary
+
+12 what is join its type
+
+13 inner join query
+
+14 what is priority and sevirity
+
+15 what is high priority low severity
+
+16 what is boundary value analysis
+
+17 join Query give two tables 
+
+18 white box testing black box testing
+-----------------------------------------------------------------------------------------------------------------------------------------
+Today 2nd round interview - 30  mintes
+
+1 tell me about yourself
+2 which process follow in your organization
+3 project explination
+4 what validation perform on your project
+5 what is subquery give example
+6 give 2 table
+   Find out max salary
+7 what is tracibility matrix
+8 group by function does not use with aggregatre function its yes or no
+9 having clause does not use with group by clause yes or no
+10 give me query using group by clause and having clause
+11  what is mapping sheet
+12 how to delet record from target table
+------------------------------------------------------------------------------------------------------------------------------------
+What is difference between story point estimate and time tracking in jira?
+
+There is a employee table with columns as ID, Name, department, Salary.
+
+Now write a query to find fifth max salary department wise. If there is no fifth max salary then query should show 4th max and if there is no fourth max then it should show 3rd max and so on.
+
+      ---- By Junglee Games
+          ( Etl automation interview question)
+ans:With cte as (
+    Select
+        id,
+        Name,
+        department,
+        Salary,
+        dense_rank() OVER (ORDER BY Salary DESC) AS SalaryRank
+    FROM table_name
+)
+select department,id,Name,max(case 
+							when SalaryRank = 6 then salary
+							when SalaryRank = 5 then salary
+							when SalaryRank = 4 then salary
+							when SalaryRank = 3 then salary
+							when SalaryRank = 2 then salary
+							when SalaryRank = 1 then salary
+							end) 
+							as Maxsalaries 
+from cte
+group by department,id,Name;
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Today's interview:
+
+Role: QA-1 (etl testing and automation)
+
+1) You are a Mechanical Engineer. Tell me about you background and how you end up in testing career.
+
+2) tell me about the projects you worked on.
+
+3) Which tools you guys used to do data migration in azure cloud?
+
+4) Which service are you using? Why Azure data lake gen 2? Details
+
+5) tell me the e2e flow of your migration project
+
+6) What validation you did on all the three layers.( silver, gold etc)
+
+7) how you validate data between CSV and target.
+
+8) tell me about transformations
+
+9) how many pipelines do you handle
+
+10) How you use your container files in datbricks
+
+11) what is rdbms, data warehouse, star schema, galaxy schema 
+
+12) shared screen for SQL questions
+Shared employee table with 4 columns and some values in rows.
+1) giv me employee name which have salary greater than 20000 as high salaried, between 10000 and 20000 as medium salaried, less than 10000 as underpaid.
+2) give me duplicate
+3) delete that duplicate
+4) There is a employee table with columns as ID, Name, department, Salary.
+
+Now write a query to find fifth max salary department wise. If there is no fifth max salary then query should show 4th max and if there is no fourth max then it should show 3rd max and so on.
+
+5) difference between group by and partition by
+
+6) what is delete, drop, truncate and difference. Where did you use them.
+
+7) he share another two tables.
+T1 - 1,1,0,null,1,2
+T2 - 1,2,3,4, null, null, 1
+Now, tell me all the joins and the output count.
+In this he asked why those values are different, difference between full join and cross join. Asked about null and blank difference.
+
+8) what is scd0, scd1, scd2.
+Then he gave four tables emp details, transaction details, product, sales. And ask when did we use all above type of SCD. Give me scenario.
+9) update query
+10) views and index difference.
+12) ok. Then he  told me to write test cases for source CSV and target validation
+
+13) do you used and know python? How do you rate yourself out of 10
+
+14) what is list, tuple, dictionary and give various methods to define them in python. He told to open a python interpreter online to type the code.
+
+15) function, decorator, assertion
+
+16) tell me some oops concepts.
+
+17) do you know pyspark as most of work we do using pyspark.
+( I told him basic code but he was not satisfied. He told that it is mandatory to know it for unit testing)
+
+18)then where do you use python. 
+
+19) ok. Do you know about api testing?
+
+20) how did you do api testing, which documents you require and tool used
+
+21) get, put, post, delete request details and how you use json to test them in soap ui.
+
+23) do you know response codes and error messages?
+
+24) what does 403 suggest and what will be the action required.
+Difference between 401 and 403. ( because i confused between them)
+
+25) ok. So what is  white box, black box and gray box testing
+
+26) what is bottom up integration testing
+
+27) what is retesting, regression testing
+
+28) difference between smoke and sanity and when you perform them
+
+29) tell me some bugs you find in etl testing and how do you raise it.
+
+30) priority and seviority
+
+31) so, after working for three years, tell me why etl testing is necessary.
+
+Ok. That's from my side, do you have any questions?
+
+I asked him about there etl automation process and role of qa.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
